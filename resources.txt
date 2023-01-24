@@ -1,0 +1,8 @@
+What is a directory, and what is its relationship to files?
+  answer: A directory is a type of file that contains information needed to access files or other directories. Therefore it takes up less space than other types of         files. 
+  
+How are VCS useful?
+  answer: Version Control Systems allow users to see and interact with the history of website projects to compare changes, add modifications, and see who else has made     modifications.
+  
+Do you have a favorite artistic medium? Why is it your favorite?
+  answer: My favorite artistic medium is interactive websites. I like the outcome of working on a project over time and seeing it interact with the command line and user   input. I enjoy other kinds of artistic mediums, such as graphic design, mostly because I feel that my digital art is cleaner and more concise than my physical art,       like paintings or music. 
