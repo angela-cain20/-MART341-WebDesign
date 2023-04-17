@@ -17,10 +17,12 @@ img{
 
 .inspo{
     background-color: #401111;
-    color: white;
     height: 700px;
     width: 700px;
     display: inline-block;
+}
+h2{
+    color: white;
 }
 
 #title{
