@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Black.otf') format('truetype');
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Bold.otf') format('truetype');
+    font-weight: 700;
+ }
+ 
+ @font-face {
+   font-family: 'Playfair Display';
+   src: url('../fonts/PlayfairDisplay-BoldItalic.otf') format('truetype');
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Playfair Display';
+   src: url('../fonts/PlayfairDisplay-BoldItalic.otf') format('truetype');
+   font-weight: 700;
+}
