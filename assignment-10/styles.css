@@ -1,62 +1,53 @@
 body{
-    background-color: #dbcaca;
-    font-family: Gothic;
+    background-color: #842c14;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 div{
-    border: 5px solid grey;
+    border: 5px solid ;
     display: inline-block;
 }
 
 img{
     border-radius: 50%;
-    border: 10px solid #750f0f;
+    border: 10px solid #d1ad92;
 
 }
 
 .inspo{
-    background-color: #401111;
+    background-color: #c4643e;
     height: 700px;
     width: 700px;
     display: inline-block;
 }
-h2{
-    color: white;
+
+h1{
+    color: #842c14;
+}
+
+h2 {
+    color: #842c14;
 }
 
 #title{
     font-size: 75%;
-    background-color: #dbcaca;
-    color:#401111;
+    background-color: #d9c6b5;
+    color:#61443a;
     margin: auto;
     padding: 20px;
 }
 
 .palette{
     background-color: beige;
+    color: #61443a;
     width: 800px;
 }
 
 .c{
     height: 100px;
     width: 100px;
-    border-radius:50%;
+    border-radius:100%;
     display: inline-block;
 }
 
-.c1{
-    background-color: #401111;
-}
-
-.c2{
-    background-color: #750f0f;
-}
-
-.c3{
-    background-color: #dbcaca;
-}
-
-.c4{
-    background-color: grey;
-}
