@@ -1,0 +1,161 @@
+body {
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #C589E8;
+}
+
+.container {
+    line-height: 150%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #C589E8;
+}
+.header h1 {
+    color: #ECFFF8;
+    font-size: 30px;
+    font-family: 'Arial';
+    background-color: #C589E8;
+}
+.titleBorder{
+    height: 200px;
+    background-color: #C589E8;
+    color: #E3DAFF;
+    width: 100%;
+    overflow: auto;
+}
+
+#title:hover {
+    letter-spacing: 1em;
+    color:#E3DAFF;
+}
+
+.titleBorder:hover{
+    background-color: #C589E8;
+    color: #4C191B;
+    text-indent: 11em;}
+
+.subtitle{
+    padding-top: 50px;
+    font-size: 75px;
+    margin: auto;
+}
+
+.content-paragraph{
+    margin: auto;
+    color: black;
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 640px;}
+
+    /* Set the layout of the menu: */
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: #333;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.site-name {
+    color: #4C191B;
+    margin: 1em .2em;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    letter-spacing: 0.3em;
+    float: left;
+    font-weight: bold;}
+
+/* Style the links: */
+.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #E81C23;
+    color: #333;
+}
+
+/* dropdown feature */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+.dropdown-content a {
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: white;
+    background-color: #C589E8;
+}
+
+
+.dropdown:hover{
+    border-radius: 1em 1em 0em 0em;
+}
+
+#foundation:hover{
+    border-radius: 0em 0em 1em 1em;
+}
+
+.main {
+    margin: 190px;
+    border: 1px solid #E3DAFF;
+    padding: 1em;
+    background-color: #E3DAFF;
+}
+.feature{
+    margin: 190px;
+    border: 1px solid #E3DAFF;
+    padding: 1em;
+    background-color: #E3DAFF;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    background-color: #C589E8;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: flow-root;
+    background-color: #E3DAFF;
+}
+
+.footer {
+    padding: 55px 20px;
+    background-color: #4C191B;
+    color: #ECFFF8;
+    text-align: center;
+}
