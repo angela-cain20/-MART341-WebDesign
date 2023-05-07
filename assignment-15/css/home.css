@@ -1,0 +1,123 @@
+.header {
+    background-color: #49475B;
+    text-align: center;
+    padding: 20px;
+  }
+.head1{
+    background-color: #19686d;
+    color:black;
+    font-family: Cambridge;
+    letter-spacing: 3px;
+    font-size: 80px;
+    text-align:center;
+    padding:20px;
+}
+.head2{
+    background-color: #19686d;
+    font-family: Cambridge;
+    letter-spacing: 3px;
+    color: #ACC196;
+    font-size: larger;
+    text-align:center;
+    padding:20px;
+}
+
+Content{
+    background-color:#dce1ef;
+    text-align: center;
+    padding: 0%;
+}
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #1f2e33;
+  }
+  
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #ACC196;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .topnav a:hover {
+    background-color:#ACC196;
+    color: black;
+  }
+  
+  .resources{
+    color:#ACC196;
+  }
+
+  /* Create three equal columns that float next to each other */
+.row{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ACC196;
+}
+.column {
+    flex: 1;
+    padding:10px;
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    display:flex;
+    flex-wrap: nowrap;
+    content: "";
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .column {
+
+    float: left;
+  }
+
+  .column.side {
+    width: 25%;
+  }
+  /* Middle column */
+  .column.middle {
+    width: 25%;
+  }
+  .column img{
+    max-width: 100%;
+    height:auto;
+  }
+  .video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #ACC196;
+  }
+  .footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:#0B3948;
+    color:#ACC196;
+    letter-spacing: 2px;
+    font-family: Cambridge;
+
+  }
